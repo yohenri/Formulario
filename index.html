@@ -6,12 +6,25 @@
 </head>
 
 <body>
+    <form action=""></form>
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" size="70" required>
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" size="70" required>
+    </div>
+    <div>
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade" required>
+    </div>
 <div>
-    <label for="categoria" Categorias:></label>
+    <label for="categoria"> Categorias:</label>
     <select name="categoria" id="categoria">
-    <option value="administrador" Funcionário></option>
-    <option value="gerente" Funcionário></option>
-    <option value="funcionario" selected Funcionário></option>
+    <option value="administrador" >adimistrador</option>
+    <option value="gerente" >gerente</option>
+    <option value="funcionario" selected Funcionário> funcionario </option>
     </select>
     
     <!--sempre utilizar valor dentro. para uso mais amplos utilizar números. o nome serve para identificar-->
@@ -50,9 +63,24 @@
      rows="4"
      style="resize: none;"
       >
-      <!--modifica o bloco de texto para não ele ficar fixo-->
+      
     </textarea>
+    <!--modifica o bloco de texto para não ele ficar fixo-->
 </div>
-    
+
+<div>
+<input type="button" value="Enviar"/>
+
+</div>
+<div>
+    <button><img src="" alt=""></button>
+</div>
+
+<div>
+    <button type="submit" name="btn_limpar" value="limpar"> 
+        comprar  
+    </button>
+</div>
+     <!--possível fazer um button de enviar info, com-->
 </body>
 </html>
